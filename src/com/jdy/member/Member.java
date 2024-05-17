@@ -5,7 +5,7 @@ import java.security.PublicKey;
 public class Member { 
 	
 	// value object(VO) OR data transfer object(DTO)
-	
+//=========================================================================	
 	private String id;
 	private String pw;
 	private String name;
@@ -24,7 +24,7 @@ public class Member {
 		this.email = email;
 		this.age = age;
 	}
-	
+//=========================================================================	
 	public String getId() {
 		return id;
 	}

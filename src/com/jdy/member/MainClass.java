@@ -9,6 +9,10 @@ public class MainClass {
 		Member member1 = new Member();
 		member1.setId("tiger");
 		member1.setName("홍길동");
+		member1.setPw("1234");
+		member1.setEmail("hong@abc.com");
+		member1.setAge(26);
+		
 					
 //		member1.id = "tiger";
 //		member1.pw = "12345";
@@ -22,9 +26,15 @@ public class MainClass {
 //		member2.name = "이순신";
 //		member2.email = "kang@abc.com";
 //		member2.age = 32;
-
 		
-		System.out.print(member1.getId());
+		Member member3 = new Member("whitecat", "이순신", "5678", "white@abc.com", 33);
+		// 생성잘ㄹ 사용하여 초기화
+		
+
+		System.out.println(member1.getId());
+		System.out.println(member1.getName());
+		
+		System.out.println(member3.getEmail());
 	}
 
 }
